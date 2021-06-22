@@ -11,7 +11,7 @@ export const Home = () => {
     }
     useEffect(() => {
         getMovies()
-    })
+    },[])
 
     return (
         <div className="container">
