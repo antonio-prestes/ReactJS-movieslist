@@ -10,7 +10,7 @@ export const MovieDetail = (props) => {
     }
     useEffect(() => {
         getMovie()
-    }, [])
+    })
 
     return (
     <section className="movie-detail">
