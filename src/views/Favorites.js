@@ -1,5 +1,5 @@
 import {useDispatch, useSelector} from "react-redux";
-import {addMovie, removeMovie} from "../store/actions/movies";
+import {removeMovie} from "../store/actions/movies";
 import {Link} from "react-router-dom";
 
 export const Favorites = () => {
